@@ -22,8 +22,10 @@ int main(){
 
 	std::string s1 = "pale";
 	std::string s2 = "pole";
-	std::string s3 = "hello world!";	
+	std::string s3 = "hello world!";
+	std::string s4 = "ple";	
 	std::cout << one_away(s1, s2) << std::endl;
 	std::cout << one_away(s3, s2) << std::endl;
+	std::cout << one_away(s1, s4) << std::endl;
 	return 0;
 }
